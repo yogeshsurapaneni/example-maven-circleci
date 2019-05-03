@@ -4,7 +4,7 @@ public class Example {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-  System.out.println("Circle Ci is successful");
+  System.out.println("Circle Ci test is successful");
 	}
 
 }

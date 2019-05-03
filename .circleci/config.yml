@@ -18,7 +18,7 @@ jobs:
             - ~/.m2
           key: example-maven-circleci-{{ checksum "pom.xml" }}
       
-      - run: mvn -Dtest=Example test
+      - run: mvn -Dtest=AppTest test
       
       - store_test_results:
           path: target/surefire-reports      
